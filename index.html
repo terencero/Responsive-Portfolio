@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Terence's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+
+<body>
+		<div class="heading"> <!-- div for the heading/nav section to make block level element with white background -->	
+			<header>
+				<div class="heading-wrapper"> <!-- applied 960px width to align with main section -->
+					
+					<h1>Terence Ro</h1>
+					<nav class="nav-links">
+						<ul>
+							<li><a href="index.html">About</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</header>
+		</div>	
+		
+	<div class="wrapper"> <!-- needed for the sticky footer; width is set to 960px -->
+		<div class="main-section"> <!-- div is 650px wide -->
+
+			<h2>About Me</h2>
+
+		<div class="profile-pic"> <!-- wrapped pic in div to allow padding -->
+			<img src="assets/images/terence.jpeg" alt="picture of Terence" height="350">
+		</div>
+
+			<article>
+				<h3>The Long and Short of It</h3>
+				<section>
+					<p>I grew up in Elk Grove Village and attended DePaul University in Chicago, Illinois.  I graduated with a major in Philosophy. After college, I served a short stint in the military. I got married and have two kids. After serving in the military, my family and I moved to Korea. My spouse and I taught English in an English academy there. After a few years, our family moved back to the States and I got a job at Northwestern University. So here I am.</p>
+
+					<h3>Interests</h3>
+					<p>I love to code. I love to learn about all things code and have been learning it wherever I can.  </p>
+				</section>
+			</article>
+
+		</div> <!-- end div that is 650px wide -->
+
+		
+			<aside class="side-bar"> <!-- aside is 270px wide -->
+				<h3>Connect with Me</h3>
+				<div class="icon-images">
+					<a href="https://github.com/"><img src="assets/images/github.png" class="icon" alt="github icon" width="50" height="50"></a>
+					<a href="https://www.linkedin.com/"><img src="assets/images/square-linkedin.png" class="icon" alt="linkedin icon" width="50" height="50"></a>
+					<a href="http://stackoverflow.com"><img src="assets/images/stackoverflow.png" class="icon" alt="stackoverflow icon" width="50" height="50"></a>
+				</div>
+			</aside> <!-- end aside that is 270px wide-->
+		
+		
+		<div class="push"></div> <!-- hidden field to "push" footer and prevent overlap; do not write any text-->
+	</div>	<!-- end the "wrapper" needed for sticky footer -->
+
+	<div class="footer">	
+		<footer>
+		<!-- need to put in copyright symbol -->
+			<p>&copy; Copyright 2016 Terence Ro</p>
+		</footer>
+	</div>
+</body>
+</html>

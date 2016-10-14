@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Terence's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/portfolio_style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+
+<body>
+		<div class="heading"> <!-- div for the heading/nav section to make block level element with white background -->	
+			<header>
+				<div class="headingWrapper"> <!-- applied 960px width to align with main section -->
+
+					<h1>Terence Ro</h1>
+				
+					<nav class="navLinks">
+						<ul>
+							<li><a href="index.html">About</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>	
+		
+	<div class="wrapper"> <!-- needed for the sticky footer; width is set to 960px -->
+		<div class="mainSection"> <!-- div is 650px wide -->
+
+			<h2>Portfolio</h2>
+				<div class="portfolioWrapper"> <!-- portfolioWrapper set to same width as mainSection (650px) to constrain portfolio image positioning -->
+					<div class="label"> <!-- each div in portfolioWrapper set to size of jpg image backgrounds -->
+						<div id="hangman">
+							<h3><a href="#">Hangman</a></h3>
+						</div>
+					</div>
+						<div class="label">
+							<div id="rpg">
+								<h3><a href="#">RPG Game</a></h3>
+							</div>
+						</div>
+						<div class="label">
+							<div id="trivia">
+								<h3><a href="#">Trivia Game</a></h3>
+							</div>
+						</div>
+						<div class="label">
+							<div id="rutgers">
+								<h3><a href="#">Rutgers Info Widget</a></h3>
+							</div>
+						</div>
+						<div class="label">
+							<div id="rock">
+								<h3><a href="#">Rock Paper Scissors</a></h3>
+							</div>
+						</div>
+				</div>
+			
+
+		</div> <!-- end div that is 650px wide -->
+
+		
+			<aside class="sideBar"> <!-- aside is 270px wide -->
+				<h3>Connect with Me</h3>
+				<div class="iconImages">
+					<a href="https://github.com/"><img src="assets/images/github.png" class="icon" alt="github icon" width="50" height="50"></a>
+					<a href="https://www.linkedin.com/"><img src="assets/images/square-linkedin.png" class="icon" alt="linkedin icon" width="50" height="50"></a>
+					<a href="http://stackoverflow.com"><img src="assets/images/stackoverflow.png" class="icon" alt="stackoverflow icon" width="50" height="50"></a>
+				</div>
+			</aside> <!-- end aside that is 270px wide-->
+		
+		
+		<div class="push"></div> <!-- hidden field to "push" footer and prevent overlap; do not write any text-->
+	</div>	<!-- end the "wrapper" needed for sticky footer -->
+
+	<div class="footer">	
+		<footer>
+		<!-- need to put in copyright symbol -->
+			<p>&copy; Copyright 2016 Terence Ro</p>
+		</footer>
+	</div>
+</body>
+</html>

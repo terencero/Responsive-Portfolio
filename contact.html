@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Terence's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/contact_style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+
+<body>
+		<div class="heading"> <!-- div for the heading/nav section to make block level element with white background -->	
+			<header>
+				<div class="heading-wrapper"> <!-- applied 960px width to align with main section -->
+
+					<h1>Terence Ro</h1>
+				
+					<nav class="nav-links">
+						<ul>
+							<li><a href="index.html">About</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>	
+		
+	<div class="wrapper"> <!-- needed for the sticky footer; width is set to 960px -->
+		<div class="main-section"> <!-- div is 650px wide -->
+
+			<h2>Contact</h2>
+
+			<form class="contact-form">
+				<label for="get-name">Name</label>
+				<p></p>
+				<input id="get-name" type="text" value="John Smith">
+				<br>
+				<br>
+				<label for="get-email">Email</label>
+				<p></p>
+				<input id="get-email" type="text" value="example@gmail.com">
+				<br>
+				<br>
+				<label for="get-comments">Message</label>
+				<p></p>
+				<textarea id="get-comments"></textarea>
+				<br>
+				<br>
+				<a href="#"><button>Submit</button></a>
+			</form>
+
+		</div> <!-- end div that is 650px wide -->
+
+		
+			<aside class="side-bar"> <!-- aside is 270px wide -->
+				<h3>Connect with Me</h3>
+				<div class="icon-images">
+					<a href="https://github.com/"><img src="assets/images/github.png" class="icon" alt="github icon" width="50" height="50"></a>
+					<a href="https://www.linkedin.com/"><img src="assets/images/square-linkedin.png" class="icon" alt="linkedin icon" width="50" height="50"></a>
+					<a href="http://stackoverflow.com"><img src="assets/images/stackoverflow.png" class="icon" alt="stackoverflow icon" width="50" height="50"></a>
+				</div>
+			</aside> <!-- end aside that is 270px wide-->
+		
+		
+		<div class="push"></div> <!-- hidden field to "push" footer and prevent overlap; do not write any text-->
+	</div>	<!-- end the "wrapper" needed for sticky footer -->
+
+	<div class="footer">	
+		<footer>
+		<!-- need to put in copyright symbol -->
+			<p>&copy; Copyright 2016 Terence Ro</p>
+		</footer>
+	</div>
+</body>
+</html>
