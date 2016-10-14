@@ -36,3 +36,15 @@ textarea {
 .main-section a:active {
 	background-color: grey;
 }
+
+@media screen and (max-width: 980px) {
+	textarea {
+		width: 255px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	textarea {
+		width: 525px;
+	}
+}

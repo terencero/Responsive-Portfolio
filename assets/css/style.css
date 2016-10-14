@@ -213,14 +213,14 @@ html, body {
 		width: 567px;
 		display: block;
 		padding: 20px;
-		float: left;
-		margin-top: 20px;
+		float: none;
+		margin: 20px auto 0;
 	}
 }
 
 @media screen and (max-width: 640px){
 	.profile-pic {
-		float: left;
+		float: none;
 	}
 	.main-section {
 		width: 600px;
@@ -235,8 +235,8 @@ html, body {
 		width: 600px;
 		display: block;
 		padding: 20px;
-		float: left;
-		margin-top: 20px;
+		float: none;
+		margin: 20px auto 0;
 	}
 	.heading-wrapper{
 		height: 160px;
