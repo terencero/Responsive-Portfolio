@@ -37,6 +37,8 @@ textarea {
 	background-color: grey;
 }
 
+/* contact @media queries */
+
 @media screen and (max-width: 980px) {
 	textarea {
 		width: 255px;

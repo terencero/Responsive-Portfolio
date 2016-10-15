@@ -74,6 +74,8 @@
 	color: white;
 }
 
+/* portfolio @media queries */
+
 @media screen and (max-width: 980px) {
 	.portfolio-wrapper {
 		width: 245px;
