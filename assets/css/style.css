@@ -199,6 +199,7 @@ html, body {
 @media screen and (max-width: 768px){
 	.profile-pic {
 		float: left;
+
 	}
 	.main-section {
 		width: 567px;
@@ -206,11 +207,15 @@ html, body {
 		float: none;
 		margin: 0 auto;
 	}
+	.heading-wrapper {
+		width: 567px;
+	}
 	.wrapper {
 		width: 607px;
 	}
 	.side-bar {
-		width: 567px;
+		width: 100%;
+		max-width: 567px;
 		display: block;
 		padding: 20px;
 		float: none;
@@ -223,24 +228,28 @@ html, body {
 		float: none;
 	}
 	.main-section {
-		width: 600px;
+		width: 100%;
+		min-width: 320px;
+		max-width: 600px;
 		padding: 20px;
 		float: none;
 		margin: 0 auto;
 	}
 	.wrapper {
-		width: 640px;
+		width: 100%;
 	}
 	.side-bar {
-		width: 600px;
+		width: 100%;
+		min-width: 320px;
+		max-width: 600px;
 		display: block;
 		padding: 20px;
 		float: none;
 		margin: 20px auto 0;
 	}
-	.heading-wrapper{
+	.heading-wrapper, .heading {
 		height: 160px;
-		width: 640px;
+		width: 100%;
 	}
 	h1 {
 		display: block;
@@ -248,7 +257,7 @@ html, body {
 		position: relative;
 		text-align: center;
 		padding: 32px 0px;
-		width: 640px;
+		width: 100%;
 		top: 0;
 	}
 	.nav-links {

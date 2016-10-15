@@ -73,3 +73,43 @@
 .portfolio-wrapper a:active {
 	color: white;
 }
+
+@media screen and (max-width: 980px) {
+	.portfolio-wrapper {
+		width: 245px;
+	}
+
+	.portfolio-wrapper div {
+		margin: 18px auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.portfolio-wrapper {
+		width: 567px;
+		display: inline-block;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.portfolio-wrapper div {
+		position: relative;
+		display: inline-block;
+		float: left;
+		margin: 6px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.portfolio-wrapper {
+		min-width: 245px;
+		max-width: 245px;
+		display: block;	
+	}
+
+	.portfolio-wrapper div {
+		margin: 18px auto;
+		float: none;
+		display: inline-block;
+	}
+}
